@@ -14,7 +14,7 @@
 ⦿ Can Delete Your Question Along With Answer  <br/>
 ⦿ Easy To JailBreak GPT <br/>
 
-<h3 align="left"> Endpoints Of This API Documentation</h3>
+<h3 align="left"> Endpoints Of This API Documentation </h3>
 https://localhost:3000/ask?q=YourQuestionHere <br/>
 https://localhost:3000/add?question=YourQuestionHere&answer=YourAnswerHere <br/>
 https://localhost:3000/update?question=ExistingQuestion&answer=NewAnswerHere <br/>

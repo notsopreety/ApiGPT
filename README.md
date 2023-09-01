@@ -3,21 +3,22 @@
 
 # SAMIR THAKURI
 
-• A Simple Chat GPT API Made By Samir <br />
+• A Simple Chat GPT API Made By Samir <br/>
 • Follow For More Amazing Projects <br/>
 
-# Features Of This Api
-⦿ Communicate With ChatGPT
-⦿ Easy To Add Your Own Questions And Answers
-⦿ Allows You To Update Your Answer
-⦿ Can Delete Your Question Along With Answer
-⦿ Easy To JailBreak GPT
+## Features Of This Api
 
-# Endpoints Of This API Documentation
-https://localhost:3000/ask?q=YourQuestionHere
-https://localhost:3000/add?question=YourQuestionHere&answer=YourAnswerHere
-https://localhost:3000/update?question=ExistingQuestion&answer=NewAnswerHere
-https://localhost:3000/delete?question=YourQuestionHere
+⦿ Communicate With ChatGPT <br/>
+⦿ Easy To Add Your Own Questions And Answers <br/>
+⦿ Allows You To Update Your Answer <br/>
+⦿ Can Delete Your Question Along With Answer  <br/>
+⦿ Easy To JailBreak GPT <br/>
+
+<h3 align="left"> Endpoints Of This API Documentation</h3>
+https://localhost:3000/ask?q=YourQuestionHere <br/>
+https://localhost:3000/add?question=YourQuestionHere&answer=YourAnswerHere <br/>
+https://localhost:3000/update?question=ExistingQuestion&answer=NewAnswerHere <br/>
+https://localhost:3000/delete?question=YourQuestionHere <br/>
 
 ## NEED ANY HELP?
 <h3 align="left"> CONTACT ME IN SOCIAL MEDIA:</h3>

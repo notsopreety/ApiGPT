@@ -6,19 +6,19 @@
 • A Simple Chat GPT API Made By Samir <br />
 • Follow For More Amazing Projects <br/>
 
-## Features Of This Api
+# Features Of This Api
 ⦿ Communicate With ChatGPT
 ⦿ Easy To Add Your Own Questions And Answers
 ⦿ Allows You To Update Your Answer
 ⦿ Can Delete Your Question Along With Answer
 ⦿ Easy To JailBreak GPT
 
-<h3 align="left"> Endpoints Of This API Documentation</h3>
-z
+# Endpoints Of This API Documentation
 https://localhost:3000/ask?q=YourQuestionHere
 https://localhost:3000/add?question=YourQuestionHere&answer=YourAnswerHere
 https://localhost:3000/update?question=ExistingQuestion&answer=NewAnswerHere
 https://localhost:3000/delete?question=YourQuestionHere
+
 ## NEED ANY HELP?
 <h3 align="left"> CONTACT ME IN SOCIAL MEDIA:</h3>
 <p align="left">

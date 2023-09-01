@@ -3,15 +3,52 @@ MIT License
 Copyright (c) 2023 Samir Thakuri
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+1. License Scope:
+   This license grants you a worldwide, royalty-free, non-exclusive, and
+   perpetual license to exercise the rights and permissions granted herein,
+   subject to the conditions and limitations specified in this license.
+
+2. Redistributions:
+   Redistributions of the Software, whether in whole or in part, must
+   reproduce the above copyright notice, this permission notice, and any
+   disclaimers in a conspicuous manner and retain all unaltered notices,
+   including this one.
+
+3. Attribution:
+   Redistributions of the Software, in whole or in part, must prominently
+   display an attribution to the original author, Samir Thakuri, along with
+   the year of copyright notice (i.e., 2023).
+
+4. Modification and Derivative Works:
+   Modified or derivative works of the Software must clearly indicate that
+   they are derived from the original Software. If you modify the Software,
+   you must clearly state the nature of the modifications made and provide
+   a reasonable mechanism for recipients to access the source code for the
+   modified Software.
+
+5. No Warranty:
+   The Software is provided "AS IS," without warranty of any kind, express
+   or implied, including but not limited to the warranties of merchantability,
+   fitness for a particular purpose, and noninfringement. In no event shall the
+   authors or copyright holders be liable for any claim, damages, or other
+   liability, whether in an action of contract, tort, or otherwise, arising from,
+   out of, or in connection with the Software or the use or other dealings in
+   the Software.
+
+6. Support and Maintenance:
+   You have no obligation to provide support, maintenance, or updates for the
+   Software. However, if you choose to do so, you are encouraged to clearly
+   communicate any updates or changes to the users of the Software.
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
+ON SUMMARIZE,
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE

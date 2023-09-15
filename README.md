@@ -12,7 +12,6 @@
 ⦿ Easy To Add Your Own Questions And Answers <br/>
 ⦿ Allows You To Update Your Answer <br/>
 ⦿ Can Delete Your Question Along With Answer  <br/>
-⦿ Easy To JailBreak GPT <br/>
 
 <h3 align="left"> Endpoints Of This API Documentation </h3>
 https://localhost:3000/ask?q=YourQuestionHere <br/>

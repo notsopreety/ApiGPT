@@ -6,39 +6,6 @@ const path = require('path');
 
 const app = express();
 const port = process.env.PORT || 3000;
-
-/////////////////////////////////////////////////////////
-//////////////////--API KEY BARRIER--////////////////////
-/////////////////////////////////////////////////////////
-const validateApiKey = (req, res, next) => {
-  const { apikey } = req.query;
-  const validApiKeys = ['samirthegreat', '97699', '39834', '98260', '98019', 'noobsamirxyz', 'devsamir'];
-
-  if (!apikey) {
-    return res.status(400).json({
-      code: 400,
-      message: 'Missing API key. Please contact author for apikey.',
-      author: {
-      name: "Samir B. Thakuri",
-      contact: "https://www.facebook.com/profile.php?id=100008578069233"
-    }
-    });
-  }
-
-  if (validApiKeys.includes(apikey)) {
-    next();
-  } else {
-    res.status(403).json({
-      code: 403,
-      message: 'Invalid API key. Please contact author for apikey.',
-      author: {
-      name: "Samir B. Thakuri",
-      contact: "https://www.facebook.com/profile.php?id=100008578069233"
-    }
-    });
-  }
-};
-
 app.use(express.json());
 
 const qaFile = 'bypass/new_qna.json';
@@ -203,7 +170,7 @@ app.get('/ask', async (req, res) => {
 });
 
 // New endpoint to add a new question and answer to new_qna.json
-app.get('/add', validateApiKey, async (req, res) => {
+app.get('/add', async (req, res) => {
   const userQuestion = req.query.question;
   const botAnswer = req.query.answer;
 
@@ -218,7 +185,7 @@ app.get('/add', validateApiKey, async (req, res) => {
 });
 
 // New endpoint to update an existing question and answer in new_qna.json
-app.get('/update', validateApiKey, async (req, res) => {
+app.get('/update', async (req, res) => {
   const userQuestion = req.query.question;
   const botAnswer = req.query.answer;
 
@@ -240,7 +207,7 @@ app.get('/update', validateApiKey, async (req, res) => {
   res.json({ message: 'Question and answer updated successfully.' });
 });
 // New endpoint to delete a question and its answers from new_qna.json
-app.get('/delete', validateApiKey, async (req, res) => {
+app.get('/delete', async (req, res) => {
   const userQuestion = req.query.question;
 
   if (!userQuestion) {

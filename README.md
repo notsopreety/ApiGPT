@@ -1,4 +1,4 @@
-## GPT-3.5-TURBO BY SAMIR
+## GPT API BY SAMIR
 ![SamirXyz Banner](https://i.imgur.com/O7M1bqn.jpg)
 
 # SAMIR THAKURI

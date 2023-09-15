@@ -82,7 +82,7 @@ app.get('/ask', async (req, res) => {
     }
 
     if (!botAnswer) {
-      const openaiApiKey = "YOUR_OPENAI_API_KEY";
+      const openaiApiKey = "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";
       /*
       Add here your openai apikey to give access to your api.
       Get Apikey from Here: https://platform.openai.com/account/api-keys
